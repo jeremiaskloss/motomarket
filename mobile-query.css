@@ -64,3 +64,5 @@
 @media(min-width:561px) and (max-width:800px){.quick-query{max-width:560px}.quick-query h1{max-width:520px}.quick-fields{grid-template-columns:1fr 1fr}.quick-year-field{grid-column:1/-1}#results{max-width:560px}.quick-submit{max-width:560px}}
 @media(max-width:360px){.topbar{padding-inline:12px;gap:6px}.wordmark{font-size:16px}.brand-lockup{gap:6px}.header-studio-logo{width:42px}.language button{min-width:24px;font-size:10px}.quick-query h1{font-size:42px}#results .kpi.primary>strong{font-size:45px}#results .kpi:nth-child(2)>strong{font-size:26px}}
 @media print{.quick-query{display:none}}
+
+@media(max-width:800px){.market-context{margin:0 0 12px;color:#c7c7c0;font:600 13px/1.5 var(--font);letter-spacing:.03em}.quick-query h1{margin-top:0}}
