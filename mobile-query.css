@@ -1,0 +1,66 @@
+/* Option selected by Jeremías: direct access to year, brand and model. */
+.quick-query,.mobile-secondary-metrics{display:none}
+@media(max-width:800px){
+  html{scrollbar-width:none}html::-webkit-scrollbar{display:none}
+  .topbar{height:60px;padding:0 17px;gap:10px}
+  .brand-lockup{gap:10px}.header-studio-logo{width:57px}.brand-divider{height:28px}
+  .wordmark{font-size:21px;letter-spacing:-.8px;gap:7px}.brand-dot{width:7px;height:7px}
+  .language{border:1px solid #444;border-radius:3px;padding:2px;gap:0}
+  .language button{min-width:26px;min-height:28px;padding:4px;font-size:11px}
+  main{padding:29px 17px 0}
+  .page-heading{display:none}
+  .quick-query{display:block;padding-bottom:15px;border-bottom:1px solid #9b9b94;margin-bottom:29px}
+  .quick-query h1{font:750 46px/.96 var(--display);letter-spacing:-1.8px;margin:0 0 20px;max-width:330px}
+  .quick-fields{display:grid;gap:8px}
+  .quick-fields .filter-group{padding:0;margin:0;border:0;counter-increment:none}
+  .quick-fields .filter-label,.quick-year-field .year-label{font:400 14px/1.4 var(--font);color:#c5c5c0;letter-spacing:0;text-transform:none;margin:0 0 6px}
+  .quick-fields .filter-label:before{content:none}
+  .quick-fields .filter-trigger,.quick-year-field select{height:44px;min-height:44px;width:100%;background:transparent;border:1px solid #91918d;border-radius:5px;padding:0 14px;color:#f2f2ef;font:450 16px/1.3 var(--font)}
+  .quick-fields .filter-trigger .count{font-size:11px}
+  .quick-submit{display:block;width:100%;min-height:46px;margin:17px 0 0;border-radius:6px;background:#ff0000;color:white;font:750 18px/1.2 var(--font);padding:12px}
+  .quick-submit:hover{background:#dc0000}.quick-submit:active{transform:translateY(1px)}
+  .quick-more{display:block;min-height:44px;margin:auto;padding:10px 16px;background:none;color:#f0f0ed;font-size:15px;text-decoration:underline;text-underline-offset:4px}
+  .quick-fields .filter-popup{top:73px;padding:12px;border-color:#666;background:#171717;z-index:45;box-shadow:0 12px 25px #000b;max-width:100%}
+  .filter-popup input[type=search]{font-size:16px;min-height:44px;padding:10px}
+  .filter-popup .option-list{max-height:min(250px,38dvh)}
+  .filter-option{font-size:15px;min-height:44px;align-items:center;gap:12px;padding:9px 4px}
+  .filter-option input{width:20px;height:20px;flex-shrink:0}
+  .filter-popup .text-button{font-size:14px;min-height:40px}
+  .option-hint{font:12px/1.5 var(--font)}
+  .query-toolbar{display:none}#mobileFilters{display:none}
+  .query-toolbar.has-active-filters{display:flex;margin:0 0 15px}
+  .query-chips .chip.period{display:none}.query-chips .chip{font-size:12px;min-height:36px;line-height:1.4}.chip button{min-width:32px;min-height:32px}
+  #queryStatus{font-size:12px;min-height:20px}.loading #viewResults{opacity:.65}
+  #results{grid-template-columns:1.58fr 1fr;margin:0;border:0;scroll-margin-top:80px;outline-offset:8px;gap:16px}
+  #results .kpi{padding:0;min-height:0;border:0}
+  #results .kpi.primary{display:flex;flex-direction:column}
+  #results .kpi.primary:before{display:none}
+  #results .kpi.primary>strong{order:0;font-size:52px;line-height:1.04;letter-spacing:-2.5px;margin:0 0 4px}
+  #results .kpi.primary>span{order:1;font:400 15px/1.4 var(--font);min-height:0;color:#eee;max-width:none}
+  #results .kpi.primary>small{order:2;font-size:11px;line-height:1.5;margin-top:3px;color:#aaa}
+  #results .kpi:nth-child(2){border-left:1px solid #555;padding-left:13px;display:flex;flex-direction:column}
+  #results .kpi:nth-child(2)>strong{order:0;font-size:30px;letter-spacing:-1px;margin:4px 0}
+  #results .kpi:nth-child(2)>span{order:1;font:400 11px/1.5 var(--font);min-height:0;color:#ccc}
+  #results .kpi:nth-child(2)>small{order:2;font:400 10px/1.5 var(--font);margin-top:5px;color:#aaa}
+  #coverageNote{display:block;margin:15px 0 22px;padding:0;background:none;border:0;font-size:12px;line-height:1.5;color:#c3c3bd}
+  #coverageNote .note-symbol{display:none}
+  .trend-panel{display:flex;flex-direction:column;padding:16px 0 20px;border-top:1px dashed #444}.trend-panel>.panel-heading{margin:10px 0 0;order:3}.trend-panel>.trend-meta{order:2}.trend-panel>.trend-chart{order:0}.trend-panel>.chart-footer{order:4}.trend-panel .section-kicker,.trend-panel h2{display:none}
+  .chart-controls{font-size:12px;display:flex;flex-wrap:wrap;justify-content:flex-start;gap:6px}.chart-controls select{font-size:12px;min-height:40px;max-width:none}.segment button{font-size:11px;min-height:40px}
+  .trend-chart{height:215px}.trend-meta{margin-top:12px}.legend-item,.compare,.chart-footer{font-size:10px}.axis-label{font-size:9px}
+  .mobile-secondary-metrics{display:grid;grid-template-columns:1fr 1fr;border-block:1px solid #333;margin:0 0 25px}
+  .mobile-secondary-metrics .kpi{padding:16px;min-height:100px}.mobile-secondary-metrics .kpi:first-child{padding-left:0}
+  .mobile-secondary-metrics .kpi>strong{font-size:34px}.mobile-secondary-metrics .kpi>span{font-size:11px}.mobile-secondary-metrics .kpi small{font-size:11px}
+  .sidebar{width:min(420px,100vw);padding:20px 22px 32px}
+  .sidebar .side-heading h2{font-size:25px;max-width:260px}.sidebar .side-sub{font-size:14px;max-width:300px}
+  .sidebar .sidebar-index{font-size:11px}.sidebar .side-heading .text-button{font-size:13px;min-height:44px}
+  .mobile-close{top:8px;right:14px}.mobile-close button{font-size:14px;min-width:58px;min-height:44px}
+  .sidebar .filter-label{font-size:12px;margin-bottom:8px}.sidebar .year-coverage{font-size:12px}
+  .sidebar .filter-trigger,.sidebar select,.sidebar input{font-size:16px;min-height:44px}
+  .sidebar .filter-period label{font-size:14px}.sidebar .text-button{font-size:14px;min-height:44px}
+  .sidebar .source-mini,.sidebar .source-mini p,.sidebar .source-mini a{font-size:12px}
+  .sidebar .filter-popup{top:73px}
+  html[lang="zh-CN"] .quick-query h1{font-size:39px;line-height:1.15;letter-spacing:0}
+}
+@media(min-width:561px) and (max-width:800px){.quick-query{max-width:560px}.quick-query h1{max-width:520px}.quick-fields{grid-template-columns:1fr 1fr}.quick-year-field{grid-column:1/-1}#results{max-width:560px}.quick-submit{max-width:560px}}
+@media(max-width:360px){.topbar{padding-inline:12px;gap:6px}.wordmark{font-size:16px}.brand-lockup{gap:6px}.header-studio-logo{width:42px}.language button{min-width:24px;font-size:10px}.quick-query h1{font-size:42px}#results .kpi.primary>strong{font-size:45px}#results .kpi:nth-child(2)>strong{font-size:26px}}
+@media print{.quick-query{display:none}}
