@@ -1,0 +1,44 @@
+
+identifier: MEX-INEGI.EEC6.03-VMRC-ANUAL-2025
+
+title: Vehículos de Motor Registrados en Circulación 1980-2025, información anual. Cifras Definitivas.
+
+description: La Estadística de Vehículos de Motor Registrados en Circulación (VMRC), es un proyecto que genera información sobre la composición y evolución del parque vehicular registrado que circula en el territorio nacional identificando sus principales características, contribuyendo con la elaboración o formulación de políticas de desarrollo del sector transportes.
+
+Nota: Los campos en vacío se refieren a que el dato para el periodo indicado no fue generado por el informante, ya que la serie estadística no abarca dicho periodo, por lo cual no se dispone de esa información.
+El servicio público de motocicletas corresponde a los vehículos que se alquilan o rentan al público en general.
+La estadística de VMRC no considera el registro de remolques, semirremolques o vehículos de demostración.  
+Para el Estado de Oaxaca no se dispone del desglose por municipio para la serie 1980 a 2007.
+
+Nota al usuario, cifras 2021: Se incluyen los municipios Seybaplaya y Dzitbalché, de Campeche.  - Querétaro. El padrón vehicular de 2021 corresponde a las unidades vehiculares en activo que no presentan adeudos.
+
+Nota al usuario, cifras 2022: A partir del año 2022 entra en vigor el Decreto por el que se fomenta la regularización de vehículos usados de procedencia extranjera, publicado en 19 de enero del 2022 en el Diario Oficial de la Federación, por lo cual, el registro de vehículos en estados fronterizos presenta un incremento respecto a ejercicios anteriores. – En agosto de 2025 se realizaron ajustes de cifras de Ciudad de México y Tamaulipas.
+
+Nota al usuario, cifras 2023: Para la entidad de Colima los datos del año 2023 corresponden al parque vehicular a abril del 2024, dado que no hay registro de información con corte al 31 de diciembre debido a una actualización del sistema informático de la fuente.- A partir de 2023 se incluye la información de los municipios de San Quintín y San Felipe, de Baja California.
+
+Nota al usuario, cifras 2024: en Morelos la fuente informante del estado ajustó la distribución en su base de datos para el tipo de servicio público y particular, por lo cual algunos municipios pueden presentar cambios en su tendencia respecto a la serie histórica.
+
+Nota al usuario, cifras 2025: A partir de la difusión de cifras del 27 de agosto de 2026, se amplía el marco conceptual del programa estadístico de Vehículos de Motor Registrados en Circulación con la publicación de las variables año modelo, fuente de energía, número de cilindros y origen de adquisición del vehículo.
+
+
+modified: 2026-08-27
+
+publisher: Instituto Nacional de Estadística y Geografía, INEGI
+
+mbox: atencion.usuarios@inegi.org.mx 
+
+license: https://www.inegi.org.mx/inegi/terminos.html
+
+dataDictionary: https://www.inegi.org.mx/rnm/index.php/catalog/1124
+
+keyword: "automóviles, "camiones para pasajeros", "camiones y camionetas para carga", "motocicletas", "público", "particular", "oficial"
+
+contactPoint: Mtro. J. Armando Aguiar Rodríguez, 800 111 4634
+
+temporal: 1980-01-01-2025-12-31
+
+spatial: Estados Unidos Mexicanos
+
+accrualPeriodicity: Anualmente
+
+distribution: https://www.inegi.org.mx/programas/vehiculosmotor/
